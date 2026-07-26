@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
 
             cmd.Start();
 
-            richTextBox1.AppendText($"O Systém bude vypnut za {hours} hodinu/hodin.\n");
+            richTextBox1.AppendText($"O Systém bude vypnut za {hours} hodin.\n");
         }
         #endregion
 
@@ -63,7 +63,12 @@ namespace WindowsFormsApp1
         {
             ScheduleShutdown(4);
         }
+
         #endregion
 
+        private void btn5h_Click(object sender, EventArgs e)
+        {
+            ScheduleShutdown(5);
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.btn3h = new System.Windows.Forms.Button();
             this.btn4h = new System.Windows.Forms.Button();
             this.btn1h = new System.Windows.Forms.Button();
+            this.btn5h = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnStop
@@ -77,7 +78,7 @@
             // 
             this.btn2h.BackColor = System.Drawing.Color.RosyBrown;
             this.btn2h.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn2h.Location = new System.Drawing.Point(384, 193);
+            this.btn2h.Location = new System.Drawing.Point(193, 193);
             this.btn2h.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn2h.Name = "btn2h";
             this.btn2h.Size = new System.Drawing.Size(164, 49);
@@ -90,7 +91,7 @@
             // 
             this.btn3h.BackColor = System.Drawing.Color.RosyBrown;
             this.btn3h.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn3h.Location = new System.Drawing.Point(193, 252);
+            this.btn3h.Location = new System.Drawing.Point(365, 193);
             this.btn3h.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn3h.Name = "btn3h";
             this.btn3h.Size = new System.Drawing.Size(164, 49);
@@ -103,7 +104,7 @@
             // 
             this.btn4h.BackColor = System.Drawing.Color.RosyBrown;
             this.btn4h.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn4h.Location = new System.Drawing.Point(568, 252);
+            this.btn4h.Location = new System.Drawing.Point(111, 252);
             this.btn4h.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn4h.Name = "btn4h";
             this.btn4h.Size = new System.Drawing.Size(164, 49);
@@ -125,11 +126,25 @@
             this.btn1h.UseVisualStyleBackColor = false;
             this.btn1h.Click += new System.EventHandler(this.btn1h_Click);
             // 
+            // btn5h
+            // 
+            this.btn5h.BackColor = System.Drawing.Color.RosyBrown;
+            this.btn5h.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btn5h.Location = new System.Drawing.Point(309, 252);
+            this.btn5h.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn5h.Name = "btn5h";
+            this.btn5h.Size = new System.Drawing.Size(164, 49);
+            this.btn5h.TabIndex = 10;
+            this.btn5h.Text = "off in 5h";
+            this.btn5h.UseVisualStyleBackColor = false;
+            this.btn5h.Click += new System.EventHandler(this.btn5h_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(745, 315);
+            this.Controls.Add(this.btn5h);
             this.Controls.Add(this.btn1h);
             this.Controls.Add(this.btn4h);
             this.Controls.Add(this.btn3h);
@@ -154,6 +169,7 @@
         private System.Windows.Forms.Button btn3h;
         private System.Windows.Forms.Button btn4h;
         private System.Windows.Forms.Button btn1h;
+        private System.Windows.Forms.Button btn5h;
     }
 }
 
